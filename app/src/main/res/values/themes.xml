@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Darkroom" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ink</item>
+        <item name="colorOnPrimary">@color/on_ink</item>
+        <item name="colorSecondary">@color/ember</item>
+        <item name="colorOnSecondary">@color/on_ink</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="android:statusBarColor">@color/ink</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowBackground">@color/ink</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="materialButtonStyle">@style/Widget.Darkroom.Button</item>
+    </style>
+
+    <style name="Widget.Darkroom.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="backgroundTint">@color/ember</item>
+        <item name="android:textColor">@color/on_ink</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.Kicker" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/ember_soft</item>
+    </style>
+</resources>

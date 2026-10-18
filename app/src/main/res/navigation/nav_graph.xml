@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navigation graph. Note: navigation, keypass, catalogueFragment, detailFragment.
+     SignInFragment navigates to catalogueFragment and passes the keypass.
+     CatalogueFragment.open navigates to detailFragment and passes every technique field, including description.
+     The sign-in navigation pops itself, so Back from the catalogue leaves the app. -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.s8120975.assignment2.screens.signin.SignInFragment"
+        android:label="Sign in" />
+
+    <fragment
+        android:id="@+id/catalogueFragment"
+        android:name="com.s8120975.assignment2.screens.catalogue.CatalogueFragment"
+        android:label="Catalogue">
+        <argument
+            android:name="keypass"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.s8120975.assignment2.screens.detail.DetailFragment"
+        android:label="Technique">
+        <argument
+            android:name="technique"
+            app:argType="string" />
+        <argument
+            android:name="equipment"
+            app:argType="string" />
+        <argument
+            android:name="subject"
+            app:argType="string" />
+        <argument
+            android:name="pioneeringPhotographer"
+            app:argType="string" />
+        <argument
+            android:name="yearIntroduced"
+            app:argType="integer" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+    </fragment>
+</navigation>

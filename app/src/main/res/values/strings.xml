@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Darkroom</string>
+    <string name="course_line">NIT3213 · s8120975</string>
+    <string name="sign_in_title">Darkroom</string>
+    <string name="sign_in_blurb">A short catalogue of photographic techniques for the Footscray class.</string>
+    <string name="marks">Film  ·  Light  ·  Time</string>
+    <string name="student_id_hint">Student ID</string>
+    <string name="first_name_hint">First name</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_note">Student ID works with or without the leading s. First name is case sensitive. The first sign-in can take a moment while the server wakes up.</string>
+    <string name="catalogue_title">Catalogue</string>
+    <string name="catalogue_place">Footscray · photography</string>
+    <string name="catalogue_hint">Tap a technique to read the full note.</string>
+    <string name="retry">Try again</string>
+    <string name="empty_catalogue">No techniques came back.</string>
+    <string name="read">Read</string>
+    <string name="detail_kicker">Technique</string>
+    <string name="back">Back</string>
+    <string name="label_subject">Subject</string>
+    <string name="label_equipment">Equipment</string>
+    <string name="label_photographer">Photographer</string>
+    <string name="about_heading">About this technique</string>
+    <string name="missing_detail">This technique could not be opened.</string>
+</resources>

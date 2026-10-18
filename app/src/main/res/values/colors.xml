@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#141210</color>
+    <color name="ink_soft">#2A2622</color>
+    <color name="paper">#F7F1E7</color>
+    <color name="card">#FFFCF8</color>
+    <color name="ember">#D4652F</color>
+    <color name="ember_deep">#A3471C</color>
+    <color name="ember_soft">#F6DDD0</color>
+    <color name="muted">#7A7066</color>
+    <color name="line">#E7DCCE</color>
+    <color name="on_ink">#F7F1E7</color>
+    <color name="problem">#8E2E2A</color>
+    <color name="problem_wash">#F8E6E2</color>
+</resources>
